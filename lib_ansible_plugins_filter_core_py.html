@@ -903,7 +903,7 @@
 <p id="t235" class="stm mis">            <span class="nam">start</span> <span class="op">=</span> <span class="num">0</span><span class="strut">&nbsp;</span></p>
 <p id="t236" class="stm mis">        <span class="key">if</span> <span class="key">not</span> <span class="nam">step</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
 <p id="t237" class="stm mis">            <span class="nam">step</span> <span class="op">=</span> <span class="num">1</span><span class="strut">&nbsp;</span></p>
-<p id="t238" class="stm mis">        <span class="key">return</span> <span class="nam">r</span><span class="op">.</span><span class="nam">randrange</span><span class="op">(</span><span class="nam">start</span><span class="op">,</span> <span class="nam">end</span><span class="op">,</span> <span class="nam">step</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
+<p id="t238" class="stm mis">        <span class="key">return</span> <span class="nam">r</span><span class="op">.</span><span class="nam">randrange</span><span class="op">(</span><span class="nam">start</span><span class="op">,</span> <span class="nam">end</span> <span class="op">+</span> <span class="num">1</span><span class="op">,</span> <span class="nam">step</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
 <p id="t239" class="stm mis">    <span class="key">elif</span> <span class="nam">hasattr</span><span class="op">(</span><span class="nam">end</span><span class="op">,</span> <span class="str">'__iter__'</span><span class="op">)</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
 <p id="t240" class="stm mis">        <span class="key">if</span> <span class="nam">start</span> <span class="key">or</span> <span class="nam">step</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
 <p id="t241" class="stm mis">            <span class="key">raise</span> <span class="nam">AnsibleFilterError</span><span class="op">(</span><span class="str">'start and step can only be used with integer values'</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
@@ -1270,7 +1270,7 @@
     <div class="content">
         <p>
             <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.4.2</a>,
-            created at 2018-01-26 08:58
+            created at 2018-02-02 12:42
         </p>
     </div>
 </div>

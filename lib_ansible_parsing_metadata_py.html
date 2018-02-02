@@ -510,7 +510,7 @@
 <p id="t191" class="stm run hide_run">    <span class="key">for</span> <span class="nam">root_idx</span><span class="op">,</span> <span class="nam">child</span> <span class="key">in</span> <span class="nam">reversed</span><span class="op">(</span><span class="nam">list</span><span class="op">(</span><span class="nam">enumerate</span><span class="op">(</span><span class="nam">module_ast</span><span class="op">.</span><span class="nam">body</span><span class="op">)</span><span class="op">)</span><span class="op">)</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
 <p id="t192" class="stm run hide_run">        <span class="key">if</span> <span class="nam">isinstance</span><span class="op">(</span><span class="nam">child</span><span class="op">,</span> <span class="nam">ast</span><span class="op">.</span><span class="nam">Assign</span><span class="op">)</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
 <p id="t193" class="stm run hide_run">            <span class="key">for</span> <span class="nam">target</span> <span class="key">in</span> <span class="nam">child</span><span class="op">.</span><span class="nam">targets</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
-<p id="t194" class="stm par run hide_run"><span class="annotate short">194&#x202F;&#x219B;&#x202F;195</span><span class="annotate long">line 194 didn't jump to line 195, because the condition on line 194 was never true</span>                <span class="key">if</span> <span class="nam">target</span><span class="op">.</span><span class="nam">id</span> <span class="op">==</span> <span class="str">'ANSIBLE_METADATA'</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
+<p id="t194" class="stm par run hide_run"><span class="annotate short">194&#x202F;&#x219B;&#x202F;195</span><span class="annotate long">line 194 didn't jump to line 195, because the condition on line 194 was never true</span>                <span class="key">if</span> <span class="nam">isinstance</span><span class="op">(</span><span class="nam">target</span><span class="op">,</span> <span class="nam">ast</span><span class="op">.</span><span class="nam">Name</span><span class="op">)</span> <span class="key">and</span> <span class="nam">target</span><span class="op">.</span><span class="nam">id</span> <span class="op">==</span> <span class="str">'ANSIBLE_METADATA'</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
 <p id="t195" class="stm mis">                    <span class="nam">metadata</span> <span class="op">=</span> <span class="nam">ast</span><span class="op">.</span><span class="nam">literal_eval</span><span class="op">(</span><span class="nam">child</span><span class="op">.</span><span class="nam">value</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
 <p id="t196" class="stm mis">                    <span class="key">if</span> <span class="key">not</span> <span class="nam">offsets</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
 <p id="t197" class="stm mis">                        <span class="key">continue</span><span class="strut">&nbsp;</span></p>
@@ -572,7 +572,7 @@
     <div class="content">
         <p>
             <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.4.2</a>,
-            created at 2018-01-26 08:58
+            created at 2018-02-02 12:42
         </p>
     </div>
 </div>

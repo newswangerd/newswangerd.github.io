@@ -281,40 +281,41 @@
 <p id="n210" class="pln"><a href="#n210">210</a></p>
 <p id="n211" class="stm mis"><a href="#n211">211</a></p>
 <p id="n212" class="stm mis"><a href="#n212">212</a></p>
-<p id="n213" class="stm mis"><a href="#n213">213</a></p>
-<p id="n214" class="pln"><a href="#n214">214</a></p>
-<p id="n215" class="stm mis"><a href="#n215">215</a></p>
+<p id="n213" class="pln"><a href="#n213">213</a></p>
+<p id="n214" class="stm mis"><a href="#n214">214</a></p>
+<p id="n215" class="pln"><a href="#n215">215</a></p>
 <p id="n216" class="stm mis"><a href="#n216">216</a></p>
 <p id="n217" class="stm mis"><a href="#n217">217</a></p>
 <p id="n218" class="stm mis"><a href="#n218">218</a></p>
-<p id="n219" class="pln"><a href="#n219">219</a></p>
-<p id="n220" class="stm mis"><a href="#n220">220</a></p>
+<p id="n219" class="stm mis"><a href="#n219">219</a></p>
+<p id="n220" class="pln"><a href="#n220">220</a></p>
 <p id="n221" class="stm mis"><a href="#n221">221</a></p>
 <p id="n222" class="stm mis"><a href="#n222">222</a></p>
 <p id="n223" class="stm mis"><a href="#n223">223</a></p>
-<p id="n224" class="pln"><a href="#n224">224</a></p>
+<p id="n224" class="stm mis"><a href="#n224">224</a></p>
 <p id="n225" class="pln"><a href="#n225">225</a></p>
 <p id="n226" class="pln"><a href="#n226">226</a></p>
-<p id="n227" class="stm mis"><a href="#n227">227</a></p>
+<p id="n227" class="pln"><a href="#n227">227</a></p>
 <p id="n228" class="stm mis"><a href="#n228">228</a></p>
 <p id="n229" class="stm mis"><a href="#n229">229</a></p>
-<p id="n230" class="pln"><a href="#n230">230</a></p>
-<p id="n231" class="stm mis"><a href="#n231">231</a></p>
+<p id="n230" class="stm mis"><a href="#n230">230</a></p>
+<p id="n231" class="pln"><a href="#n231">231</a></p>
 <p id="n232" class="stm mis"><a href="#n232">232</a></p>
 <p id="n233" class="stm mis"><a href="#n233">233</a></p>
 <p id="n234" class="stm mis"><a href="#n234">234</a></p>
-<p id="n235" class="pln"><a href="#n235">235</a></p>
+<p id="n235" class="stm mis"><a href="#n235">235</a></p>
 <p id="n236" class="pln"><a href="#n236">236</a></p>
 <p id="n237" class="pln"><a href="#n237">237</a></p>
-<p id="n238" class="stm mis"><a href="#n238">238</a></p>
+<p id="n238" class="pln"><a href="#n238">238</a></p>
 <p id="n239" class="stm mis"><a href="#n239">239</a></p>
-<p id="n240" class="pln"><a href="#n240">240</a></p>
-<p id="n241" class="stm mis"><a href="#n241">241</a></p>
-<p id="n242" class="pln"><a href="#n242">242</a></p>
+<p id="n240" class="stm mis"><a href="#n240">240</a></p>
+<p id="n241" class="pln"><a href="#n241">241</a></p>
+<p id="n242" class="stm mis"><a href="#n242">242</a></p>
 <p id="n243" class="pln"><a href="#n243">243</a></p>
-<p id="n244" class="stm run hide_run"><a href="#n244">244</a></p>
+<p id="n244" class="pln"><a href="#n244">244</a></p>
 <p id="n245" class="stm run hide_run"><a href="#n245">245</a></p>
 <p id="n246" class="stm run hide_run"><a href="#n246">246</a></p>
+<p id="n247" class="stm run hide_run"><a href="#n247">247</a></p>
 
             </td>
             <td class="text">
@@ -529,41 +530,42 @@
 <p id="t209" class="pln"><span class="strut">&nbsp;</span></p>
 <p id="t210" class="pln">                <span class="key">else</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
 <p id="t211" class="stm mis">                    <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_type'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'kvm'</span><span class="strut">&nbsp;</span></p>
-<p id="t212" class="stm mis">                <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_role'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'host'</span><span class="strut">&nbsp;</span></p>
-<p id="t213" class="stm mis">                <span class="key">return</span> <span class="nam">virtual_facts</span><span class="strut">&nbsp;</span></p>
-<p id="t214" class="pln"><span class="strut">&nbsp;</span></p>
-<p id="t215" class="stm mis">            <span class="key">if</span> <span class="str">'vboxdrv'</span> <span class="key">in</span> <span class="nam">modules</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
-<p id="t216" class="stm mis">                <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_type'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'virtualbox'</span><span class="strut">&nbsp;</span></p>
-<p id="t217" class="stm mis">                <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_role'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'host'</span><span class="strut">&nbsp;</span></p>
-<p id="t218" class="stm mis">                <span class="key">return</span> <span class="nam">virtual_facts</span><span class="strut">&nbsp;</span></p>
-<p id="t219" class="pln"><span class="strut">&nbsp;</span></p>
-<p id="t220" class="stm mis">            <span class="key">if</span> <span class="str">'virtio'</span> <span class="key">in</span> <span class="nam">modules</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
-<p id="t221" class="stm mis">                <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_type'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'kvm'</span><span class="strut">&nbsp;</span></p>
-<p id="t222" class="stm mis">                <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_role'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'guest'</span><span class="strut">&nbsp;</span></p>
-<p id="t223" class="stm mis">                <span class="key">return</span> <span class="nam">virtual_facts</span><span class="strut">&nbsp;</span></p>
-<p id="t224" class="pln"><span class="strut">&nbsp;</span></p>
-<p id="t225" class="pln">        <span class="com"># In older Linux Kernel versions, /sys filesystem is not available</span><span class="strut">&nbsp;</span></p>
-<p id="t226" class="pln">        <span class="com"># dmidecode is the safest option to parse virtualization related values</span><span class="strut">&nbsp;</span></p>
-<p id="t227" class="stm mis">        <span class="nam">dmi_bin</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">module</span><span class="op">.</span><span class="nam">get_bin_path</span><span class="op">(</span><span class="str">'dmidecode'</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
-<p id="t228" class="stm mis">        <span class="op">(</span><span class="nam">rc</span><span class="op">,</span> <span class="nam">out</span><span class="op">,</span> <span class="nam">err</span><span class="op">)</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">module</span><span class="op">.</span><span class="nam">run_command</span><span class="op">(</span><span class="str">'%s -s system-product-name'</span> <span class="op">%</span> <span class="nam">dmi_bin</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
-<p id="t229" class="stm mis">        <span class="key">if</span> <span class="nam">rc</span> <span class="op">==</span> <span class="num">0</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
-<p id="t230" class="pln">            <span class="com"># Strip out commented lines (specific dmidecode output)</span><span class="strut">&nbsp;</span></p>
-<p id="t231" class="stm mis">            <span class="nam">vendor_name</span> <span class="op">=</span> <span class="str">''</span><span class="op">.</span><span class="nam">join</span><span class="op">(</span><span class="op">[</span><span class="nam">line</span><span class="op">.</span><span class="nam">strip</span><span class="op">(</span><span class="op">)</span> <span class="key">for</span> <span class="nam">line</span> <span class="key">in</span> <span class="nam">out</span><span class="op">.</span><span class="nam">splitlines</span><span class="op">(</span><span class="op">)</span> <span class="key">if</span> <span class="key">not</span> <span class="nam">line</span><span class="op">.</span><span class="nam">startswith</span><span class="op">(</span><span class="str">'#'</span><span class="op">)</span><span class="op">]</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
-<p id="t232" class="stm mis">            <span class="key">if</span> <span class="nam">vendor_name</span> <span class="key">in</span> <span class="op">[</span><span class="str">'VMware Virtual Platform'</span><span class="op">,</span> <span class="str">'VMware7,1'</span><span class="op">]</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
-<p id="t233" class="stm mis">                <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_type'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'VMware'</span><span class="strut">&nbsp;</span></p>
-<p id="t234" class="stm mis">                <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_role'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'guest'</span><span class="strut">&nbsp;</span></p>
-<p id="t235" class="pln"><span class="strut">&nbsp;</span></p>
-<p id="t236" class="pln">        <span class="com"># If none of the above matches, return 'NA' for virtualization_type</span><span class="strut">&nbsp;</span></p>
-<p id="t237" class="pln">        <span class="com"># and virtualization_role. This allows for proper grouping.</span><span class="strut">&nbsp;</span></p>
-<p id="t238" class="stm mis">        <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_type'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'NA'</span><span class="strut">&nbsp;</span></p>
-<p id="t239" class="stm mis">        <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_role'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'NA'</span><span class="strut">&nbsp;</span></p>
-<p id="t240" class="pln"><span class="strut">&nbsp;</span></p>
-<p id="t241" class="stm mis">        <span class="key">return</span> <span class="nam">virtual_facts</span><span class="strut">&nbsp;</span></p>
-<p id="t242" class="pln"><span class="strut">&nbsp;</span></p>
+<p id="t212" class="stm mis">                    <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_role'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'host'</span><span class="strut">&nbsp;</span></p>
+<p id="t213" class="pln"><span class="strut">&nbsp;</span></p>
+<p id="t214" class="stm mis">                <span class="key">return</span> <span class="nam">virtual_facts</span><span class="strut">&nbsp;</span></p>
+<p id="t215" class="pln"><span class="strut">&nbsp;</span></p>
+<p id="t216" class="stm mis">            <span class="key">if</span> <span class="str">'vboxdrv'</span> <span class="key">in</span> <span class="nam">modules</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
+<p id="t217" class="stm mis">                <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_type'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'virtualbox'</span><span class="strut">&nbsp;</span></p>
+<p id="t218" class="stm mis">                <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_role'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'host'</span><span class="strut">&nbsp;</span></p>
+<p id="t219" class="stm mis">                <span class="key">return</span> <span class="nam">virtual_facts</span><span class="strut">&nbsp;</span></p>
+<p id="t220" class="pln"><span class="strut">&nbsp;</span></p>
+<p id="t221" class="stm mis">            <span class="key">if</span> <span class="str">'virtio'</span> <span class="key">in</span> <span class="nam">modules</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
+<p id="t222" class="stm mis">                <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_type'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'kvm'</span><span class="strut">&nbsp;</span></p>
+<p id="t223" class="stm mis">                <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_role'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'guest'</span><span class="strut">&nbsp;</span></p>
+<p id="t224" class="stm mis">                <span class="key">return</span> <span class="nam">virtual_facts</span><span class="strut">&nbsp;</span></p>
+<p id="t225" class="pln"><span class="strut">&nbsp;</span></p>
+<p id="t226" class="pln">        <span class="com"># In older Linux Kernel versions, /sys filesystem is not available</span><span class="strut">&nbsp;</span></p>
+<p id="t227" class="pln">        <span class="com"># dmidecode is the safest option to parse virtualization related values</span><span class="strut">&nbsp;</span></p>
+<p id="t228" class="stm mis">        <span class="nam">dmi_bin</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">module</span><span class="op">.</span><span class="nam">get_bin_path</span><span class="op">(</span><span class="str">'dmidecode'</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
+<p id="t229" class="stm mis">        <span class="op">(</span><span class="nam">rc</span><span class="op">,</span> <span class="nam">out</span><span class="op">,</span> <span class="nam">err</span><span class="op">)</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">module</span><span class="op">.</span><span class="nam">run_command</span><span class="op">(</span><span class="str">'%s -s system-product-name'</span> <span class="op">%</span> <span class="nam">dmi_bin</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
+<p id="t230" class="stm mis">        <span class="key">if</span> <span class="nam">rc</span> <span class="op">==</span> <span class="num">0</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
+<p id="t231" class="pln">            <span class="com"># Strip out commented lines (specific dmidecode output)</span><span class="strut">&nbsp;</span></p>
+<p id="t232" class="stm mis">            <span class="nam">vendor_name</span> <span class="op">=</span> <span class="str">''</span><span class="op">.</span><span class="nam">join</span><span class="op">(</span><span class="op">[</span><span class="nam">line</span><span class="op">.</span><span class="nam">strip</span><span class="op">(</span><span class="op">)</span> <span class="key">for</span> <span class="nam">line</span> <span class="key">in</span> <span class="nam">out</span><span class="op">.</span><span class="nam">splitlines</span><span class="op">(</span><span class="op">)</span> <span class="key">if</span> <span class="key">not</span> <span class="nam">line</span><span class="op">.</span><span class="nam">startswith</span><span class="op">(</span><span class="str">'#'</span><span class="op">)</span><span class="op">]</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
+<p id="t233" class="stm mis">            <span class="key">if</span> <span class="nam">vendor_name</span> <span class="key">in</span> <span class="op">[</span><span class="str">'VMware Virtual Platform'</span><span class="op">,</span> <span class="str">'VMware7,1'</span><span class="op">]</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
+<p id="t234" class="stm mis">                <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_type'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'VMware'</span><span class="strut">&nbsp;</span></p>
+<p id="t235" class="stm mis">                <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_role'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'guest'</span><span class="strut">&nbsp;</span></p>
+<p id="t236" class="pln"><span class="strut">&nbsp;</span></p>
+<p id="t237" class="pln">        <span class="com"># If none of the above matches, return 'NA' for virtualization_type</span><span class="strut">&nbsp;</span></p>
+<p id="t238" class="pln">        <span class="com"># and virtualization_role. This allows for proper grouping.</span><span class="strut">&nbsp;</span></p>
+<p id="t239" class="stm mis">        <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_type'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'NA'</span><span class="strut">&nbsp;</span></p>
+<p id="t240" class="stm mis">        <span class="nam">virtual_facts</span><span class="op">[</span><span class="str">'virtualization_role'</span><span class="op">]</span> <span class="op">=</span> <span class="str">'NA'</span><span class="strut">&nbsp;</span></p>
+<p id="t241" class="pln"><span class="strut">&nbsp;</span></p>
+<p id="t242" class="stm mis">        <span class="key">return</span> <span class="nam">virtual_facts</span><span class="strut">&nbsp;</span></p>
 <p id="t243" class="pln"><span class="strut">&nbsp;</span></p>
-<p id="t244" class="stm run hide_run"><span class="key">class</span> <span class="nam">LinuxVirtualCollector</span><span class="op">(</span><span class="nam">VirtualCollector</span><span class="op">)</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
-<p id="t245" class="stm run hide_run">    <span class="nam">_fact_class</span> <span class="op">=</span> <span class="nam">LinuxVirtual</span><span class="strut">&nbsp;</span></p>
-<p id="t246" class="stm run hide_run">    <span class="nam">_platform</span> <span class="op">=</span> <span class="str">'Linux'</span><span class="strut">&nbsp;</span></p>
+<p id="t244" class="pln"><span class="strut">&nbsp;</span></p>
+<p id="t245" class="stm run hide_run"><span class="key">class</span> <span class="nam">LinuxVirtualCollector</span><span class="op">(</span><span class="nam">VirtualCollector</span><span class="op">)</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
+<p id="t246" class="stm run hide_run">    <span class="nam">_fact_class</span> <span class="op">=</span> <span class="nam">LinuxVirtual</span><span class="strut">&nbsp;</span></p>
+<p id="t247" class="stm run hide_run">    <span class="nam">_platform</span> <span class="op">=</span> <span class="str">'Linux'</span><span class="strut">&nbsp;</span></p>
 
             </td>
         </tr>
@@ -574,7 +576,7 @@
     <div class="content">
         <p>
             <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.4.2</a>,
-            created at 2018-01-26 08:58
+            created at 2018-02-02 12:42
         </p>
     </div>
 </div>
